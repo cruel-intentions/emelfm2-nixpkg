@@ -1,0 +1,44 @@
+{
+  "nodes": {
+    "emelfm2": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1652838414,
+        "narHash": "sha256-pPPnSsCTwtfMxXM8a4B+weHkrRad0L4jKEJD5Imwow8=",
+        "owner": "tom2tom",
+        "repo": "emelfm2",
+        "rev": "f236db561d4c6078665c35266baaae9965baf3c6",
+        "type": "github"
+      },
+      "original": {
+        "owner": "tom2tom",
+        "repo": "emelfm2",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1653936696,
+        "narHash": "sha256-M6bJShji9AIDZ7Kh7CPwPBPb/T7RiVev2PAcOi4fxDQ=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "ce6aa13369b667ac2542593170993504932eb836",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "22.05",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "emelfm2": "emelfm2",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
